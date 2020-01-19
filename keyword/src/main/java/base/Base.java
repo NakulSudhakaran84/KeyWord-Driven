@@ -37,7 +37,7 @@ public class Base {
 	{
 		prop=new Properties();
 		try {
-			FileInputStream ip=new FileInputStream("C:\\Users\\Nakul-PC\\Desktop\\Eclipse Practices\\KeyWordDrivenFrameWork\\keyword\\src\\main\\java\\config\\config.properties");
+			FileInputStream ip=new FileInputStream("C:\\Users\\Nakul-PC\\git\\KeyWordDriven\\keyword\\src\\main\\java\\config\\config.properties");
 			
 				prop.load(ip);
 				
